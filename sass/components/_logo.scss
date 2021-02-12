@@ -1,0 +1,27 @@
+.logo {
+    margin-right: 93px;
+  }
+  
+  .logo-first-part,
+  .logo-second-part,
+  .logo-footer-second-part {
+    font-family: $logoFont, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: $bold;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+  }
+  .logo-footer-second-part {
+    color: $white;
+  }
+  
+  .logo-first-part {
+    color: $accent;
+  }
+  
+  footer .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
